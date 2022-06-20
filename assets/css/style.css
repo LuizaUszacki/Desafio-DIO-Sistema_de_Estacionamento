@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+}
+
+.container {
+    margin-block: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container button {
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: hsl(0, 100%, 40%);
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    box-shadow: inset 0 0 10px hsl(0, 100%, 20%);
+    transition: transform 0.2s, background-color 0.2s, letter-spacing 0.2s;
+    cursor: pointer;
+}
+
+.container button:hover {
+    transform: scale(1.1);
+    background-color: hsl(0, 100%, 45%);
+    letter-spacing: 0.8px;
+}
+
+.container input {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid hsl(0 5% 80%);
+    margin-bottom: 5px;
+}
+
+table {
+    width: 60vw;
+    text-align: center;
+}
+
+thead {
+    background-color: #fff;
+    height: 26px;
+}
+
+tbody {
+    background-color: hsl(0 5% 80%);
+}
+
+.delete {
+    width: 100%;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
